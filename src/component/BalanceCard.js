@@ -137,9 +137,7 @@ export default function BalanceCard(props) {
        
     <Col xs={6} className={classes.price}>
       <Row>
-         
           <Typography variant="h5" component="h2" className={classes.priceTextNormal}> $0.00 </Typography><Chip className={classes.priceTextNormal} label="YTD" />
-
       </Row>
       </Col>
        <Col xs={6}>
@@ -174,8 +172,6 @@ export default function BalanceCard(props) {
           </Row>
           </Col>
         </Row>
-       
-       
         </Card.Body>
         </Card>
     )

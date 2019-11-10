@@ -6,6 +6,7 @@ import PanoramaFishEyeIcon from '@material-ui/icons/PanoramaFishEye';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import BalanceCard from '../../component/BalanceCard';
+import MiddleDividers from '../../component/MatBalanceCard';
 const useStyles = makeStyles(theme => ({
   root: {
     //flexGrow: 1,
@@ -165,7 +166,8 @@ export default function CenteredGrid() {
         <Row>
         <Col xs={3.5}>
         <Row>
-        <BalanceCard fullborder={true} allprice={false}></BalanceCard>
+        {/* <BalanceCard fullborder={true} allprice={false}></BalanceCard> */}
+        <MiddleDividers></MiddleDividers>
         </Row>
         <Row>
           <Col xs={12}>

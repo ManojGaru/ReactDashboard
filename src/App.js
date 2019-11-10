@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
 import CenteredGrid from './screens/home/Home';
+import Home from './screens/home/MatHome';
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-   <CenteredGrid></CenteredGrid>
-
+  //  <CenteredGrid></CenteredGrid>
+<Home></Home>
   );
 }
 
